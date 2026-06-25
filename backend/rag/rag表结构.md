@@ -1,6 +1,6 @@
 # java后端rag知识库的表结构
 
-### ai_agent
+### ai_rag
 
 ``` sql
 /*
@@ -86,3 +86,6 @@ CREATE UNIQUE INDEX "tb_ai_knowledge_alias_uindex" ON "public"."ai_rag" USING bt
 -- ----------------------------
 ALTER TABLE "public"."ai_rag" ADD CONSTRAINT "ai_rag_pkey1" PRIMARY KEY ("id");
 ```
+
+### ai_rag_document
+``` sql
